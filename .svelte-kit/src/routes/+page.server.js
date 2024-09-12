@@ -14,6 +14,6 @@ const url = `https://fdnd.directus.app/items/person/?filter={"id":{"_eq":${id}}}
   }
 
   return {
-    persons: response.data,
+    person: response.data,
   };
 }
