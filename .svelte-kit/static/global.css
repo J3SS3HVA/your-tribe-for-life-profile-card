@@ -1,9 +1,46 @@
+@font-face {
+    font-family: 'Aeonik Bold';
+    src: url('/fonts/AeonikTRIAL-Bold.otf') format('opentype');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Aeonik Bold Italic';
+    src: url('/fonts/AeonikTRIAL-BoldItalic.otf') format('opentype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Aeonik Light';
+    src: url('/fonts/AeonikTRIAL-Light.otf') format('opentype');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Aeonik Light Italic';
+    src: url('/fonts/AeonikTRIAL-LightItalic.otf') format('opentype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Aeonik Regular';
+    src: url('/fonts/AeonikTRIAL-Regular.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Aeonik Regular Italic';
+    src: url('/fonts/AeonikTRIAL-RegularItalic.otf') format('opentype');
+    font-style: italic;
+}
+
 :root {
     /* ===== Colors ===== */
     --body-color: #000000;
-    --primary-color: #ee0072;
+    --primary-color: #c549fa;
     --text-color: #fff;
-    --background-color: linear-gradient(to bottom, #78005e 0%, #060049 80%);
+    --background-color: linear-gradient(to bottom, rgba(120, 0, 94, 0.5) 0%, rgba(6, 0, 73, 0.5) 80%);
 
     /* ====== Transition ====== */
     --tran-03: all 0.2s ease;
@@ -27,7 +64,12 @@
     margin: 0;
     padding: 0;
     line-height: 1.5;
-    font-family: AvenirMedium;
+    font-family: 'Aeonik Regular', sans-serif;
+    text-shadow:
+			-2px 0 var(--primary-color),
+			2px 0 var(--primary-color),
+			0 2px var(--primary-color),
+			0 -2px var(--primary-color);
 }
 
 html, body {
@@ -41,4 +83,9 @@ body {
     transition: var(--tran-05);
     font-family: 'Poppins', sans-serif;
     min-height: 100vh;
+    overflow: hidden;
+}
+
+h1{
+    font-size: 2em;
 }
