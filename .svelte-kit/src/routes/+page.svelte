@@ -166,11 +166,7 @@
 		list-style: none;
 
 		&:hover {
-			text-shadow:
-				-2px 0 var(--text-color),
-				2px 0 var(--text-color),
-				0 2px var(--text-color),
-				0 -2px var(--text-color);
+			text-shadow: none;
 		}
 	}
 
