@@ -2,6 +2,10 @@
 	import { onMount } from 'svelte';
 	export let data;
 
+	// costom data
+	let custom = "{\"leeftijd\":21,\"stad\":\"Zaandam\",\"Sport\":\"Gym\",\"School\":\"HVA\",\"intern\":\"youfa / lead machine\",\"Games\":\"pc games\",\"jobs\":\"B.B Hal\",\"vote\":0,\"like\":true,\"messages\":[\"beep boop\",\"hoi\"],\"cardlikes\":1}";
+	let customData = JSON.parse(custom);
+
 	let modeSwitch;
 	let body;
 	let profileCard;
@@ -51,6 +55,10 @@
 			<div>
 				<p>Website</p>
 				<p>{data.person[0].website}</p>
+			</div>
+			<div>
+				<p>leeftijd</p>
+				<p>{customData.leeftijd}</p>
 			</div>
 		</section>
 		<section>
