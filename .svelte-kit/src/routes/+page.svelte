@@ -147,7 +147,7 @@
 	}
 
 	section:nth-child(2) {
-		height: 60%;
+		height: 50%;
 		padding: 1em;
 		overflow: auto;
 	}
@@ -157,7 +157,9 @@
 	}
 
 	section:last-child {
-		height: 10%;
+		height: 20%;
+		padding: 1em;
+		overflow: auto;
 	}
 
 	details summary {
