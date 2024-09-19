@@ -17,7 +17,9 @@
 <!-- Voeg een link toe naar Github Pages 🌐-->
 Net als het eerste jaar is het de bedoeling om het jaar te beginnen met het maken van een profile card. De Profilecard is bedoeld om en wat over jezelf te vertellen en dat te laten zien met front-end code
 
-![2024-06-13 10-10-05 (online-video-cutter com) (1)](https://github.com/J3SS3HVA/proof-of-concept/assets/144009667/552a9b3e-c0f0-403c-9ac5-c149f844cd32)
+<img width="600px" src="https://github.com/user-attachments/assets/dd3c4e40-9f05-4f43-8737-b8ffb0043807">
+<img width="200px" src="https://github.com/user-attachments/assets/dfc76737-a276-4fa9-a227-0608bd18e48c">
+
 
 
 ## 🔎 Kenmerken
