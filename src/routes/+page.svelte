@@ -1,5 +1,6 @@
 <script>
 	import { onMount } from 'svelte';
+	import MyImage from '$lib/assets/goku.png?enhanced';
 	export let data;
 
 	// costom data
@@ -34,6 +35,7 @@
 	});
 </script>
 
+<enhanced:img src={MyImage} alt="background" />
 <main class="card-wrapper">
 	<img src={data.person[0].avatar} alt="Avatar of {data.person[0].name}" />
 	<article class="profile-card">
@@ -120,6 +122,13 @@
 			background: linear-gradient(to top, rgb(0 0 0 / 66%), var(--body-color));
 			z-index: 0;
 		}
+	}
+
+	img[alt^='background'] {
+		width: 100%;
+		height: 100%;
+		z-index: -1;
+		position: absolute;
 	}
 
 	img[alt^='Avatar of'] {
